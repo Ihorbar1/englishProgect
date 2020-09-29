@@ -1,0 +1,109 @@
+.conteiner {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   height: 100vh;
+}
+
+
+.list {
+   position: relative;
+   width: 500px;
+   height: 500px;
+   background-color: #9bc6ce;
+   overflow-y: auto;
+}
+
+.item {
+   position: relative;
+   width: 500px;
+   height: 500px;
+   background-color: #9bc6ce;
+   overflow-y: auto;
+}
+
+
+.wordTable td{
+   /* width: 100px; */
+   font-size: 18px;
+}
+.delWord{
+   width: 40px;
+   height: 40px;
+   background-color: #000;
+   color: #fff;
+   border:   none;
+   cursor: pointer;
+   margin-left: 10px;
+}
+
+.addNewWord{
+   position: absolute;
+   top: 0;
+   right: 0;
+   width: 100px;
+   height: 40px;
+   border:   none;
+   cursor: pointer;
+   background-color: #757dc9;
+}
+.startProgram{
+   position: absolute;
+   bottom: 0;
+   right: 0;
+   width: 100px;
+   height: 40px;
+   border:   none;
+   cursor: pointer;
+   background-color: #757dc9;
+}
+
+.link{
+   position: absolute;
+   top: 40px;
+   left: 40px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100px;
+   height: 50px;
+   background-color: #757dc9;
+   color: #000;
+   text-decoration: none;
+   font-size: 18px;
+   font-weight: 700;
+
+}
+
+.categoryItem{
+   display: flex;
+}
+
+.addCategory{
+   position: absolute;
+   top: 0;
+   right: 0;
+   width: 100px;
+   height: 30px;
+   /* margin-top: 40px; */
+   background-color: #757dc9;
+   border: none ; 
+}
+
+.categoryBtn{
+   width: 250px;
+   height: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: rgb(0, 0, 0);
+   color: #fff;
+
+}
+
+.categoryDelBtn{
+   width: 50px;
+   height: 50px;
+   background-color: #000;
+   color: #fff;
+}
